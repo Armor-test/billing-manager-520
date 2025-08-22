@@ -1,0 +1,38 @@
+# CODEOWNERS file for billing-manager-520
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-api @Armor-test/squad-performance @Armor-test/team-security
+
+# Directory ownership
+/src/ @Armor-test/unit-governance @Armor-test/squad-product
+/db/ @Armor-test/squad-reporting @Armor-test/squad-mobile @Armor-test/dept-reliability
+/deploy/ @Armor-test/dept-automation @Armor-test/team-reporting
+/data/ @Armor-test/team-frontend @Armor-test/unit-design @Armor-test/dept-test
+/examples/ @Armor-test/grp-ui @Armor-test/squad-frontend
+/tools/ @Armor-test/dept-test @Armor-test/grp-api @Armor-test/grp-payments
+/middleware/ @Armor-test/squad-payments @Armor-test/team-governance
+/styles/ @Armor-test/unit-devops @Armor-test/dept-data @Armor-test/dept-identity
+/shared/ @Armor-test/dept-identity @Armor-test/dept-automation
+/hooks/ @Armor-test/squad-ux @Armor-test/team-notifications @Armor-test/squad-qa
+/app/ @Armor-test/team-research @Armor-test/dept-data @Armor-test/grp-integration
+/assets/ @Armor-test/squad-api @Armor-test/unit-devops
+
+# File type ownership
+*.css @Armor-test/squad-database @Armor-test/dept-identity
+*.jsx @Armor-test/squad-cloud @Armor-test/dept-api
+*.tf @Armor-test/team-logging @Armor-test/dept-logging
+*.c @Armor-test/team-reporting @Armor-test/squad-performance
+*.go @Armor-test/grp-payments @Armor-test/grp-integration @Armor-test/squad-product
+*.graphql @Armor-test/squad-apps @Armor-test/squad-cache
+*.rb @Armor-test/unit-devops @Armor-test/dept-api @Armor-test/team-frontend
+*.sql @Armor-test/grp-api @Armor-test/squad-tooling @Armor-test/unit-design
+*.md @Armor-test/dept-reliability @Armor-test/grp-reporting @Armor-test/team-notifications
+*.xml @Armor-test/dept-notifications @Armor-test/dept-data
+*.sh @Armor-test/grp-search @Armor-test/squad-cache @Armor-test/dept-api
+*.scss @Armor-test/team-security @Armor-test/team-research @Armor-test/squad-api
+*.kt @Armor-test/unit-cloud @Armor-test/squad-apps @Armor-test/dept-api
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
